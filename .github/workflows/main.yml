@@ -20,7 +20,7 @@ jobs:
         java-version: 17
 
     - name: Compile Java files
-      run: javac Rupali2/src/List/demo_ArrayList.java -d out
+      run: javac -d out Rupali2/src/List/demo_ArrayList.java 
 
     - name: Run Java program
-      run: java -cp out demo_ArrayList
+      run: java -cp out List.demo_ArrayList
